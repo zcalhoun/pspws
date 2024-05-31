@@ -3,3 +3,4 @@ results/*
 .DS_Store
 /archived_notebooks/*
 acs_key.json
+/scripts/*
