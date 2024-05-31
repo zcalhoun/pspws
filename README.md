@@ -1,4 +1,6 @@
 # Preferentially Sampled Personal Weather Stations
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11405961.svg)](https://doi.org/10.5281/zenodo.11405961)
+
 This repository contains all of the data and code used for analyzing preferential sampling in personal weather stations.
 
 # Organization
