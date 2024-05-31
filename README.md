@@ -1,17 +1,20 @@
 # Preferentially Sampled Personal Weather Stations
-This repository contains all of the code used for analyzing preferential sampling in personal weather stations.
+This repository contains all of the data and code used for analyzing preferential sampling in personal weather stations.
 
-The repository is organized into the following directories:
-* Preprocessing: this folder contains .ipynb notebooks used for preproccesing data.
-* Analysis: this folder contains .ipynb notebooks used for conducting analysis.
-* Data: this folder contains both raw and preprocessed data. At this time, this directory is ignored by git (using the .gitignore file). This is to avoid sending too much data to github.
+# Organization
+* preprocessed_data: this folder contains the preprocessed data with weather underground and census data combined into .shp files, organized by location / time period.
+* notebooks: this folder contains .ipynb notebooks used for conducting analysis.
 
-Please consult each of these directories to read more about the scripts contained within them.
+Please consult the notebooks to see the code used in the analysis.
 
 # Running code
-We created this environment using conda. As such, you can find the conda requirements in the environment.yaml file.
+The following requirements are needed to run the code in this repository.
+* PyMC - for running models.
+* Arviz - for visualizing PyMC results.
+* GDAL - must be installed for data preprocessing steps.
+* PySAL - for geographic data manipulation.
+* Geopandas - for working with .shp files.
+* Statsmodels - for some basic statistical analysis.
+* Numpy and Pandas - for basic data manipulation.
 
-Package requirements include:
-* PyMC - for running models
-* GDAL - must be installed for data preprocessing steps
-* PySAL
+If you would like to understand how to pull Weather Underground data, or better understand any of the questions, please make an issue, or send me a note! I would love to hear your questions.
