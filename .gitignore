@@ -1,3 +1,4 @@
 data/*
 results/*
 .DS_Store
+/archived_notebooks/*
